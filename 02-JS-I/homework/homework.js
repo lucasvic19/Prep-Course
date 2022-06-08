@@ -27,8 +27,7 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // "Return" la string provista: str
-  // Tu código
-  var str = "str";
+  // Tu código:
   return str;
 }
 
@@ -72,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1 === str2){
+  if(str1.length === str2.length){
     return true;
   } else{
     return false;
@@ -111,7 +110,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num / 2 === 0){
+  if(num % 2 === 0){
     return true;
   } else{
     return false;
@@ -122,7 +121,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num / 2 !== 0){
+  if(num % 2 !== 0){
     return true;
   } else{
     return false;
@@ -185,7 +184,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return "str" + "!";
+  return str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
